@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+	<meta charset="UTF-8">
+	<title>todos</title>
+	<link rel="stylesheet" href="../css/part2.css">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/iconfont_gou.css">
+	<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div class="todos_body">
+		<div class="todos_container">
+			<div class="todos_title">todos</div>
+			<div class="todos_Input">
+				<i class="iconfont icon-arrow" id="arrow"><input type="checkbox" class="arrow-checkbox"></i>
+				<input type="text" name="" placeholder="What needs to be done?"  id="Input">
+			</div>
+			<ul id="Ul">
+				<li id="function_li">
+					<div class="function_li-1">
+						<span id="count">0</span>
+						<span> items left</span>
+					</div>
+					<div id="function_li-2" class="function_li-2add">All<input type="radio" name="funcRadio" class="inputRadio Radio2"></div>
+					<div id="function_li-3">Active<input type="radio" name="funcRadio" class="inputRadio Radio3"></div>
+					<div id="function_li-4">Completed<input type="radio" name="funcRadio" class="inputRadio Radio4"></div>
+					<span id="function_li-5">Clear completed</span>
+				</li>
+			</ul>
+			<div class="todos_word todos_word1">Double-click to edit a todo</div>
+			<div class="todos_word">Written by Feng</div>
+			<div class="todos_word">Part of TodoMVC</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/part2.js"></script>
+</body>
+</html>
